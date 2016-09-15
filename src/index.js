@@ -22,7 +22,7 @@ const counterProps = {
   increment: _ => dispatch(Actions.Increment(), actions$),
 }
 
-// Apply props to Counter, returning a view function which takes a state
+// Apply props to counter, returning a view function which takes a state
 const view = curry(counter)(counterProps)
 
 // Set initial state of Counter
